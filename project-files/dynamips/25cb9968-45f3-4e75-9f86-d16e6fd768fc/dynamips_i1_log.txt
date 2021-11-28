@@ -1,0 +1,31 @@
+Nov 27 13:59:11.732 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Nov 27 13:59:11.732 HYPERVISOR: Started on IP = localhost, TCP port = 38695.
+Nov 27 13:59:11.742 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 27 13:59:11.742 HYPERVISOR: exec_cmd: hypervisor working_dir /home/freexrunner/GNS3/projects/test_network/project-files/dynamips 
+Nov 27 13:59:11.742 GENERAL: working_dir=/home/freexrunner/GNS3/projects/test_network/project-files/dynamips
+Nov 27 13:59:11.743 HYPERVISOR: exec_cmd: hypervisor working_dir /home/freexrunner/GNS3/projects/test_network/project-files/dynamips/25cb9968-45f3-4e75-9f86-d16e6fd768fc 
+Nov 27 13:59:11.743 GENERAL: working_dir=/home/freexrunner/GNS3/projects/test_network/project-files/dynamips/25cb9968-45f3-4e75-9f86-d16e6fd768fc
+Nov 27 13:59:11.744 HYPERVISOR: exec_cmd: vm create R1 1 c2691 
+Nov 27 13:59:11.744 VM: VM R1 created.
+Nov 27 13:59:11.744 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+Nov 27 13:59:11.745 HYPERVISOR: exec_cmd: c2691 get_mac_addr R1 
+Nov 27 13:59:11.746 HYPERVISOR: exec_cmd: vm set_ios R1 /home/freexrunner/GNS3/images/IOS/c2691-entbasek9-mz.124-13b.image 
+Nov 27 13:59:11.746 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 27 13:59:11.747 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x60691224 
+Nov 27 13:59:11.747 HYPERVISOR: exec_cmd: vm set_ram R1 192 
+Nov 27 13:59:11.748 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Nov 27 13:59:11.748 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Nov 27 13:59:11.795 HYPERVISOR: exec_cmd: vm set_ios R1 /home/freexrunner/GNS3/images/IOS/c2691-entbasek9-mz.124-13b.image 
+Nov 27 14:00:16.265 HYPERVISOR: exec_cmd: vm set_ios R1 /home/freexrunner/GNS3/images/IOS/c2691-entbasek9-mz.124-13b.image 
+Nov 27 14:00:16.266 HYPERVISOR: exec_cmd: vm rename R1 isp_gw 
+Nov 27 14:00:16.332 HYPERVISOR: exec_cmd: vm set_ios isp_gw /home/freexrunner/GNS3/images/IOS/c2691-entbasek9-mz.124-13b.image 
+Nov 27 14:06:20.826 HYPERVISOR: exec_cmd: nio create_udp udp-b138f99e-0d8c-42f2-a2be-626cf1b4b0fe 10002 127.0.0.1 10003 
+Nov 27 14:06:21.044 HYPERVISOR: exec_cmd: vm slot_add_nio_binding isp_gw 0 0 udp-b138f99e-0d8c-42f2-a2be-626cf1b4b0fe 
+Nov 27 14:06:21.045 HYPERVISOR: exec_cmd: vm get_status isp_gw 
+Nov 27 14:19:42.337 HYPERVISOR: exec_cmd: vm get_status isp_gw 
+Nov 27 14:19:42.338 HYPERVISOR: exec_cmd: vm extract_config isp_gw 
+Nov 27 14:19:42.338 HYPERVISOR: exec_cmd: vm delete isp_gw 
+Nov 27 14:19:42.338 VM: VM isp_gw destroyed.
+Nov 27 14:19:42.339 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 27 14:19:42.560 HYPERVISOR: Stopped.
+Nov 27 14:19:42.560 GENERAL: reset done.

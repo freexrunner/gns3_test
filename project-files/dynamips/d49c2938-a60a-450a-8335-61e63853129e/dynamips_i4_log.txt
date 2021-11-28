@@ -1,0 +1,28 @@
+Nov 27 13:59:28.383 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Nov 27 13:59:28.383 HYPERVISOR: Started on IP = localhost, TCP port = 41797.
+Nov 27 13:59:28.394 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 27 13:59:28.395 HYPERVISOR: exec_cmd: hypervisor working_dir /home/freexrunner/GNS3/projects/test_network/project-files/dynamips 
+Nov 27 13:59:28.395 GENERAL: working_dir=/home/freexrunner/GNS3/projects/test_network/project-files/dynamips
+Nov 27 13:59:28.395 HYPERVISOR: exec_cmd: hypervisor working_dir /home/freexrunner/GNS3/projects/test_network/project-files/dynamips/d49c2938-a60a-450a-8335-61e63853129e 
+Nov 27 13:59:28.395 GENERAL: working_dir=/home/freexrunner/GNS3/projects/test_network/project-files/dynamips/d49c2938-a60a-450a-8335-61e63853129e
+Nov 27 13:59:28.395 HYPERVISOR: exec_cmd: vm create R4 4 c2691 
+Nov 27 13:59:28.395 VM: VM R4 created.
+Nov 27 13:59:28.396 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 5003 
+Nov 27 13:59:28.396 HYPERVISOR: exec_cmd: c2691 get_mac_addr R4 
+Nov 27 13:59:28.397 HYPERVISOR: exec_cmd: vm set_ios R4 /home/freexrunner/GNS3/images/IOS/c2691-entbasek9-mz.124-13b.image 
+Nov 27 13:59:28.398 HYPERVISOR: exec_cmd: vm get_status R4 
+Nov 27 13:59:28.398 HYPERVISOR: exec_cmd: vm set_idle_pc R4 0x60691224 
+Nov 27 13:59:28.399 HYPERVISOR: exec_cmd: vm set_ram R4 192 
+Nov 27 13:59:28.399 HYPERVISOR: exec_cmd: vm set_nvram R4 256 
+Nov 27 13:59:28.399 HYPERVISOR: exec_cmd: vm set_disk0 R4 0 
+Nov 27 13:59:28.468 HYPERVISOR: exec_cmd: vm set_ios R4 /home/freexrunner/GNS3/images/IOS/c2691-entbasek9-mz.124-13b.image 
+Nov 27 14:01:18.024 HYPERVISOR: exec_cmd: vm set_ios R4 /home/freexrunner/GNS3/images/IOS/c2691-entbasek9-mz.124-13b.image 
+Nov 27 14:01:18.025 HYPERVISOR: exec_cmd: vm rename R4 vld-gw1 
+Nov 27 14:01:18.087 HYPERVISOR: exec_cmd: vm set_ios vld-gw1 /home/freexrunner/GNS3/images/IOS/c2691-entbasek9-mz.124-13b.image 
+Nov 27 14:19:42.160 HYPERVISOR: exec_cmd: vm get_status vld-gw1 
+Nov 27 14:19:42.161 HYPERVISOR: exec_cmd: vm extract_config vld-gw1 
+Nov 27 14:19:42.162 HYPERVISOR: exec_cmd: vm delete vld-gw1 
+Nov 27 14:19:42.162 VM: VM vld-gw1 destroyed.
+Nov 27 14:19:42.163 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 27 14:19:42.164 HYPERVISOR: Stopped.
+Nov 27 14:19:42.164 GENERAL: reset done.

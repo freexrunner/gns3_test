@@ -1,0 +1,29 @@
+Nov 27 13:59:23.361 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Nov 27 13:59:23.361 HYPERVISOR: Started on IP = localhost, TCP port = 34599.
+Nov 27 13:59:23.370 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 27 13:59:23.371 HYPERVISOR: exec_cmd: hypervisor working_dir /home/freexrunner/GNS3/projects/test_network/project-files/dynamips 
+Nov 27 13:59:23.371 GENERAL: working_dir=/home/freexrunner/GNS3/projects/test_network/project-files/dynamips
+Nov 27 13:59:23.371 HYPERVISOR: exec_cmd: hypervisor working_dir /home/freexrunner/GNS3/projects/test_network/project-files/dynamips/deedbb3e-04ac-402d-bbad-5630dbd0dfd8 
+Nov 27 13:59:23.371 GENERAL: working_dir=/home/freexrunner/GNS3/projects/test_network/project-files/dynamips/deedbb3e-04ac-402d-bbad-5630dbd0dfd8
+Nov 27 13:59:23.371 HYPERVISOR: exec_cmd: vm create R3 3 c2691 
+Nov 27 13:59:23.372 VM: VM R3 created.
+Nov 27 13:59:23.372 HYPERVISOR: exec_cmd: vm set_con_tcp_port R3 5002 
+Nov 27 13:59:23.372 HYPERVISOR: exec_cmd: c2691 get_mac_addr R3 
+Nov 27 13:59:23.373 HYPERVISOR: exec_cmd: vm set_ios R3 /home/freexrunner/GNS3/images/IOS/c2691-entbasek9-mz.124-13b.image 
+Nov 27 13:59:23.374 HYPERVISOR: exec_cmd: vm get_status R3 
+Nov 27 13:59:23.374 HYPERVISOR: exec_cmd: vm set_idle_pc R3 0x60691224 
+Nov 27 13:59:23.375 HYPERVISOR: exec_cmd: vm set_ram R3 192 
+Nov 27 13:59:23.375 HYPERVISOR: exec_cmd: vm set_nvram R3 256 
+Nov 27 13:59:23.375 HYPERVISOR: exec_cmd: vm set_disk0 R3 0 
+Nov 27 13:59:23.447 HYPERVISOR: exec_cmd: vm set_ios R3 /home/freexrunner/GNS3/images/IOS/c2691-entbasek9-mz.124-13b.image 
+Nov 27 13:59:25.532 HYPERVISOR: exec_cmd: vm set_ios R3 /home/freexrunner/GNS3/images/IOS/c2691-entbasek9-mz.124-13b.image 
+Nov 27 14:01:05.071 HYPERVISOR: exec_cmd: vm set_ios R3 /home/freexrunner/GNS3/images/IOS/c2691-entbasek9-mz.124-13b.image 
+Nov 27 14:01:05.071 HYPERVISOR: exec_cmd: vm rename R3 krs-gw1 
+Nov 27 14:01:05.136 HYPERVISOR: exec_cmd: vm set_ios krs-gw1 /home/freexrunner/GNS3/images/IOS/c2691-entbasek9-mz.124-13b.image 
+Nov 27 14:19:42.160 HYPERVISOR: exec_cmd: vm get_status krs-gw1 
+Nov 27 14:19:42.161 HYPERVISOR: exec_cmd: vm extract_config krs-gw1 
+Nov 27 14:19:42.162 HYPERVISOR: exec_cmd: vm delete krs-gw1 
+Nov 27 14:19:42.162 VM: VM krs-gw1 destroyed.
+Nov 27 14:19:42.163 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 27 14:19:42.663 HYPERVISOR: Stopped.
+Nov 27 14:19:42.663 GENERAL: reset done.

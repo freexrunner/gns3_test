@@ -1,0 +1,28 @@
+Nov 27 13:59:31.255 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Nov 27 13:59:31.255 HYPERVISOR: Started on IP = localhost, TCP port = 40221.
+Nov 27 13:59:31.264 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 27 13:59:31.264 HYPERVISOR: exec_cmd: hypervisor working_dir /home/freexrunner/GNS3/projects/test_network/project-files/dynamips 
+Nov 27 13:59:31.264 GENERAL: working_dir=/home/freexrunner/GNS3/projects/test_network/project-files/dynamips
+Nov 27 13:59:31.265 HYPERVISOR: exec_cmd: hypervisor working_dir /home/freexrunner/GNS3/projects/test_network/project-files/dynamips/5cbda8f0-ace1-46f7-b25f-a358baf37704 
+Nov 27 13:59:31.265 GENERAL: working_dir=/home/freexrunner/GNS3/projects/test_network/project-files/dynamips/5cbda8f0-ace1-46f7-b25f-a358baf37704
+Nov 27 13:59:31.265 HYPERVISOR: exec_cmd: vm create R5 5 c2691 
+Nov 27 13:59:31.265 VM: VM R5 created.
+Nov 27 13:59:31.265 HYPERVISOR: exec_cmd: vm set_con_tcp_port R5 5004 
+Nov 27 13:59:31.266 HYPERVISOR: exec_cmd: c2691 get_mac_addr R5 
+Nov 27 13:59:31.267 HYPERVISOR: exec_cmd: vm set_ios R5 /home/freexrunner/GNS3/images/IOS/c2691-entbasek9-mz.124-13b.image 
+Nov 27 13:59:31.267 HYPERVISOR: exec_cmd: vm get_status R5 
+Nov 27 13:59:31.267 HYPERVISOR: exec_cmd: vm set_idle_pc R5 0x60691224 
+Nov 27 13:59:31.268 HYPERVISOR: exec_cmd: vm set_ram R5 192 
+Nov 27 13:59:31.269 HYPERVISOR: exec_cmd: vm set_nvram R5 256 
+Nov 27 13:59:31.269 HYPERVISOR: exec_cmd: vm set_disk0 R5 0 
+Nov 27 13:59:31.332 HYPERVISOR: exec_cmd: vm set_ios R5 /home/freexrunner/GNS3/images/IOS/c2691-entbasek9-mz.124-13b.image 
+Nov 27 14:01:28.839 HYPERVISOR: exec_cmd: vm set_ios R5 /home/freexrunner/GNS3/images/IOS/c2691-entbasek9-mz.124-13b.image 
+Nov 27 14:01:28.839 HYPERVISOR: exec_cmd: vm rename R5 khbr-gw1 
+Nov 27 14:01:28.901 HYPERVISOR: exec_cmd: vm set_ios khbr-gw1 /home/freexrunner/GNS3/images/IOS/c2691-entbasek9-mz.124-13b.image 
+Nov 27 14:19:42.160 HYPERVISOR: exec_cmd: vm get_status khbr-gw1 
+Nov 27 14:19:42.161 HYPERVISOR: exec_cmd: vm extract_config khbr-gw1 
+Nov 27 14:19:42.162 HYPERVISOR: exec_cmd: vm delete khbr-gw1 
+Nov 27 14:19:42.162 VM: VM khbr-gw1 destroyed.
+Nov 27 14:19:42.163 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 27 14:19:42.565 HYPERVISOR: Stopped.
+Nov 27 14:19:42.565 GENERAL: reset done.
