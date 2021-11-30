@@ -1,0 +1,46 @@
+Nov 30 07:24:54.270 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Nov 30 07:24:54.271 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 36529.
+Nov 30 07:24:54.280 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 30 07:24:54.280 HYPERVISOR: exec_cmd: hypervisor working_dir /home/freex/GNS3/projects/gns3_test/project-files/dynamips 
+Nov 30 07:24:54.280 GENERAL: working_dir=/home/freex/GNS3/projects/gns3_test/project-files/dynamips
+Nov 30 07:24:54.281 HYPERVISOR: exec_cmd: hypervisor working_dir /home/freex/GNS3/projects/gns3_test/project-files/dynamips/d49c2938-a60a-450a-8335-61e63853129e 
+Nov 30 07:24:54.281 GENERAL: working_dir=/home/freex/GNS3/projects/gns3_test/project-files/dynamips/d49c2938-a60a-450a-8335-61e63853129e
+Nov 30 07:24:54.281 HYPERVISOR: exec_cmd: vm create vld-gw1 4 c2691 
+Nov 30 07:24:54.281 VM: VM vld-gw1 created.
+Nov 30 07:24:54.282 HYPERVISOR: exec_cmd: vm set_con_tcp_port vld-gw1 5003 
+Nov 30 07:24:54.282 HYPERVISOR: exec_cmd: c2691 get_mac_addr vld-gw1 
+Nov 30 07:24:54.282 HYPERVISOR: exec_cmd: vm set_disk0 vld-gw1 0 
+Nov 30 07:24:54.283 HYPERVISOR: exec_cmd: vm get_status vld-gw1 
+Nov 30 07:24:54.283 HYPERVISOR: exec_cmd: vm set_idle_pc vld-gw1 0x60691224 
+Nov 30 07:24:54.284 HYPERVISOR: exec_cmd: vm set_ios vld-gw1 /home/freex/CiscoIOS/IOS/c2691-entbasek9-mz.124-13b.image 
+Nov 30 07:24:54.284 HYPERVISOR: exec_cmd: c2691 set_mac_addr vld-gw1 c004.6ad6.0000 
+Nov 30 07:24:54.285 HYPERVISOR: exec_cmd: vm set_nvram vld-gw1 256 
+Nov 30 07:24:54.285 HYPERVISOR: exec_cmd: vm set_ram vld-gw1 192 
+Nov 30 07:24:55.614 HYPERVISOR: exec_cmd: nio create_udp udp-f5be1976-14c5-4dd9-aed8-0f4381fd77b7 10022 127.0.0.1 10023 
+Nov 30 07:24:55.828 HYPERVISOR: exec_cmd: vm slot_add_nio_binding vld-gw1 0 0 udp-f5be1976-14c5-4dd9-aed8-0f4381fd77b7 
+Nov 30 07:24:55.829 HYPERVISOR: exec_cmd: vm get_status vld-gw1 
+Nov 30 07:24:55.871 HYPERVISOR: exec_cmd: nio create_udp udp-a74c6672-dbf3-4176-8363-a23d8024556c 10026 127.0.0.1 10027 
+Nov 30 07:24:55.872 HYPERVISOR: exec_cmd: vm slot_add_nio_binding vld-gw1 0 1 udp-a74c6672-dbf3-4176-8363-a23d8024556c 
+Nov 30 07:24:55.873 HYPERVISOR: exec_cmd: vm get_status vld-gw1 
+Nov 30 07:26:00.386 HYPERVISOR: exec_cmd: vm get_status vld-gw1 
+Nov 30 07:26:00.386 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding vld-gw1 0 1 
+Nov 30 07:26:00.387 HYPERVISOR: exec_cmd: nio delete udp-a74c6672-dbf3-4176-8363-a23d8024556c 
+Nov 30 07:26:14.424 HYPERVISOR: exec_cmd: nio create_udp udp-331fc6c8-8a5d-4960-b648-78d11c8ca46c 10010 127.0.0.1 10011 
+Nov 30 07:26:14.425 HYPERVISOR: exec_cmd: vm slot_add_nio_binding vld-gw1 0 1 udp-331fc6c8-8a5d-4960-b648-78d11c8ca46c 
+Nov 30 07:26:14.426 HYPERVISOR: exec_cmd: vm get_status vld-gw1 
+Nov 30 07:26:48.753 HYPERVISOR: exec_cmd: vm set_ghost_status vld-gw1 2 
+Nov 30 07:26:48.754 HYPERVISOR: exec_cmd: vm set_ghost_file vld-gw1 /home/freex/GNS3/projects/gns3_test/project-files/dynamips/c2691-entbasek9-mz.124-13b.image-192.ghost 
+Nov 30 07:26:48.754 HYPERVISOR: exec_cmd: vm get_status vld-gw1 
+Nov 30 07:26:48.793 HYPERVISOR: exec_cmd: vm set_config vld-gw1 configs/i4_startup-config.cfg configs/i4_private-config.cfg 
+Nov 30 07:26:48.793 HYPERVISOR: exec_cmd: vm start vld-gw1 
+Nov 30 07:30:04.947 HYPERVISOR: exec_cmd: vm set_ios vld-gw1 /home/freex/CiscoIOS/IOS/c2691-entbasek9-mz.124-13b.image 
+Nov 30 07:33:49.081 HYPERVISOR: exec_cmd: vm extract_config vld-gw1 
+Nov 30 07:33:49.094 HYPERVISOR: exec_cmd: vm extract_config vld-gw1 
+Nov 30 07:35:40.406 HYPERVISOR: exec_cmd: vm get_status vld-gw1 
+Nov 30 07:35:40.406 HYPERVISOR: exec_cmd: vm stop vld-gw1 
+Nov 30 07:35:40.518 VM: VM vld-gw1 shutdown.
+Nov 30 07:35:40.519 HYPERVISOR: exec_cmd: vm extract_config vld-gw1 
+Nov 30 08:36:13.442 HYPERVISOR: exec_cmd: vm get_status vld-gw1 
+Nov 30 08:36:13.443 HYPERVISOR: exec_cmd: vm extract_config vld-gw1 
+Nov 30 10:23:25.730 HYPERVISOR: exec_cmd: vm get_status vld-gw1 
+Nov 30 10:23:25.731 HYPERVISOR: exec_cmd: vm extract_config vld-gw1 

@@ -1,0 +1,30 @@
+Nov 30 07:24:54.158 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Nov 30 07:24:54.158 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 52747.
+Nov 30 07:24:54.163 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 30 07:24:54.164 HYPERVISOR: exec_cmd: hypervisor working_dir /home/freex/GNS3/projects/gns3_test/project-files/dynamips 
+Nov 30 07:24:54.164 GENERAL: working_dir=/home/freex/GNS3/projects/gns3_test/project-files/dynamips
+Nov 30 07:24:54.164 HYPERVISOR: exec_cmd: hypervisor working_dir /home/freex/GNS3/projects/gns3_test/project-files/dynamips/25cb9968-45f3-4e75-9f86-d16e6fd768fc 
+Nov 30 07:24:54.164 GENERAL: working_dir=/home/freex/GNS3/projects/gns3_test/project-files/dynamips/25cb9968-45f3-4e75-9f86-d16e6fd768fc
+Nov 30 07:24:54.165 HYPERVISOR: exec_cmd: vm create isp_gw 1 c2691 
+Nov 30 07:24:54.165 VM: VM isp_gw created.
+Nov 30 07:24:54.165 HYPERVISOR: exec_cmd: vm set_con_tcp_port isp_gw 5000 
+Nov 30 07:24:54.166 HYPERVISOR: exec_cmd: c2691 get_mac_addr isp_gw 
+Nov 30 07:24:54.166 HYPERVISOR: exec_cmd: vm set_disk0 isp_gw 0 
+Nov 30 07:24:54.167 HYPERVISOR: exec_cmd: vm get_status isp_gw 
+Nov 30 07:24:54.167 HYPERVISOR: exec_cmd: vm set_idle_pc isp_gw 0x60691224 
+Nov 30 07:24:54.176 HYPERVISOR: exec_cmd: vm set_ios isp_gw /home/freex/CiscoIOS/IOS/c2691-entbasek9-mz.124-13b.image 
+Nov 30 07:24:54.176 HYPERVISOR: exec_cmd: c2691 set_mac_addr isp_gw c001.6aa4.0000 
+Nov 30 07:24:54.177 HYPERVISOR: exec_cmd: vm set_nvram isp_gw 256 
+Nov 30 07:24:54.177 HYPERVISOR: exec_cmd: vm set_ram isp_gw 192 
+Nov 30 07:24:54.458 HYPERVISOR: exec_cmd: nio create_udp udp-9abd18d6-2c0d-4bcb-b591-4d819ebeb199 10002 127.0.0.1 10003 
+Nov 30 07:24:54.676 HYPERVISOR: exec_cmd: vm slot_add_nio_binding isp_gw 0 0 udp-9abd18d6-2c0d-4bcb-b591-4d819ebeb199 
+Nov 30 07:24:54.677 HYPERVISOR: exec_cmd: vm get_status isp_gw 
+Nov 30 07:25:49.595 HYPERVISOR: exec_cmd: vm get_status isp_gw 
+Nov 30 07:25:49.595 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding isp_gw 0 0 
+Nov 30 07:25:49.597 HYPERVISOR: exec_cmd: nio delete udp-9abd18d6-2c0d-4bcb-b591-4d819ebeb199 
+Nov 30 07:35:40.402 HYPERVISOR: exec_cmd: vm get_status isp_gw 
+Nov 30 07:35:40.402 HYPERVISOR: exec_cmd: vm extract_config isp_gw 
+Nov 30 08:36:13.431 HYPERVISOR: exec_cmd: vm get_status isp_gw 
+Nov 30 08:36:13.432 HYPERVISOR: exec_cmd: vm extract_config isp_gw 
+Nov 30 10:23:25.679 HYPERVISOR: exec_cmd: vm get_status isp_gw 
+Nov 30 10:23:25.717 HYPERVISOR: exec_cmd: vm extract_config isp_gw 

@@ -1,0 +1,54 @@
+Nov 30 08:05:32.447 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Nov 30 08:05:32.447 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 34339.
+Nov 30 08:05:32.456 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 30 08:05:32.456 HYPERVISOR: exec_cmd: hypervisor working_dir /home/freex/GNS3/projects/gns3_test/project-files/dynamips 
+Nov 30 08:05:32.456 GENERAL: working_dir=/home/freex/GNS3/projects/gns3_test/project-files/dynamips
+Nov 30 08:05:32.456 HYPERVISOR: exec_cmd: hypervisor working_dir /home/freex/GNS3/projects/gns3_test/project-files/dynamips/59210a83-fb09-4c1e-9e69-d9d283831e70 
+Nov 30 08:05:32.456 GENERAL: working_dir=/home/freex/GNS3/projects/gns3_test/project-files/dynamips/59210a83-fb09-4c1e-9e69-d9d283831e70
+Nov 30 08:05:32.456 HYPERVISOR: exec_cmd: vm create R2 7 c2691 
+Nov 30 08:05:32.457 VM: VM R2 created.
+Nov 30 08:05:32.457 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5006 
+Nov 30 08:05:32.457 HYPERVISOR: exec_cmd: c2691 get_mac_addr R2 
+Nov 30 08:05:32.458 HYPERVISOR: exec_cmd: vm set_ios R2 /home/freex/CiscoIOS/IOS/c2691-entbasek9-mz.124-13b.image 
+Nov 30 08:05:32.458 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 30 08:05:32.458 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x60691074 
+Nov 30 08:05:32.459 HYPERVISOR: exec_cmd: vm set_ram R2 192 
+Nov 30 08:05:32.459 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Nov 30 08:05:32.459 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Nov 30 08:05:32.539 HYPERVISOR: exec_cmd: vm set_ios R2 /home/freex/CiscoIOS/IOS/c2691-entbasek9-mz.124-13b.image 
+Nov 30 08:05:33.650 HYPERVISOR: exec_cmd: vm set_ios R2 /home/freex/CiscoIOS/IOS/c2691-entbasek9-mz.124-13b.image 
+Nov 30 08:05:43.798 HYPERVISOR: exec_cmd: vm set_ios R2 /home/freex/CiscoIOS/IOS/c2691-entbasek9-mz.124-13b.image 
+Nov 30 08:11:05.958 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Nov 30 08:11:05.958 HYPERVISOR: exec_cmd: vm set_ghost_file R2 /home/freex/GNS3/projects/gns3_test/project-files/dynamips/c2691-entbasek9-mz.124-13b.image-192.ghost 
+Nov 30 08:11:05.959 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 30 08:11:05.960 HYPERVISOR: exec_cmd: vm set_config R2 configs/i7_startup-config.cfg 
+Nov 30 08:11:05.960 HYPERVISOR: exec_cmd: vm start R2 
+Nov 30 08:12:02.622 HYPERVISOR: exec_cmd: nio create_udp udp-2d22b92d-075f-440e-88bb-7b55eafaffbf 10028 127.0.0.1 10029 
+Nov 30 08:12:02.838 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-2d22b92d-075f-440e-88bb-7b55eafaffbf 
+Nov 30 08:12:02.839 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 30 08:12:02.839 HYPERVISOR: exec_cmd: vm slot_enable_nio R2 0 0 
+Nov 30 08:12:09.014 HYPERVISOR: exec_cmd: nio create_udp udp-da5c2380-5990-4440-b909-fb500c919080 10032 127.0.0.1 10033 
+Nov 30 08:12:09.015 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 1 udp-da5c2380-5990-4440-b909-fb500c919080 
+Nov 30 08:12:09.015 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 30 08:12:09.015 HYPERVISOR: exec_cmd: vm slot_enable_nio R2 0 1 
+Nov 30 08:19:36.232 HYPERVISOR: exec_cmd: vm extract_config R2 
+Nov 30 08:19:36.234 HYPERVISOR: exec_cmd: vm extract_config R2 
+Nov 30 08:23:06.259 HYPERVISOR: exec_cmd: vm extract_config R2 
+Nov 30 08:23:06.301 HYPERVISOR: exec_cmd: vm extract_config R2 
+Nov 30 08:25:06.273 HYPERVISOR: exec_cmd: vm extract_config R2 
+Nov 30 08:25:06.287 HYPERVISOR: exec_cmd: vm extract_config R2 
+Nov 30 08:34:36.350 HYPERVISOR: exec_cmd: vm extract_config R2 
+Nov 30 08:34:36.389 HYPERVISOR: exec_cmd: vm extract_config R2 
+Nov 30 08:36:13.453 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 30 08:36:13.453 HYPERVISOR: exec_cmd: vm stop R2 
+Nov 30 08:36:13.561 VM: VM R2 shutdown.
+Nov 30 08:36:13.562 HYPERVISOR: exec_cmd: vm extract_config R2 
+Nov 30 09:17:46.899 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Nov 30 09:17:46.899 HYPERVISOR: exec_cmd: vm set_ghost_file R2 /home/freex/GNS3/projects/gns3_test/project-files/dynamips/c2691-entbasek9-mz.124-13b.image-192.ghost 
+Nov 30 09:17:46.900 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 30 09:17:46.900 HYPERVISOR: exec_cmd: vm set_config R2 configs/i7_startup-config.cfg configs/i7_private-config.cfg 
+Nov 30 09:17:46.901 HYPERVISOR: exec_cmd: vm start R2 
+Nov 30 10:23:25.737 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 30 10:23:25.737 HYPERVISOR: exec_cmd: vm stop R2 
+Nov 30 10:23:25.850 VM: VM R2 shutdown.
+Nov 30 10:23:25.851 HYPERVISOR: exec_cmd: vm extract_config R2 

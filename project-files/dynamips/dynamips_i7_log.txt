@@ -1,0 +1,20 @@
+Nov 30 07:24:54.409 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Nov 30 07:24:54.409 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 40701.
+Nov 30 07:24:54.418 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 30 07:24:54.418 HYPERVISOR: exec_cmd: hypervisor working_dir /home/freex/GNS3/projects/gns3_test/project-files/dynamips 
+Nov 30 07:24:54.418 GENERAL: working_dir=/home/freex/GNS3/projects/gns3_test/project-files/dynamips
+Nov 30 07:24:54.419 HYPERVISOR: exec_cmd: ethsw create phill 
+Nov 30 07:24:55.887 HYPERVISOR: exec_cmd: nio create_udp udp-10eab16d-e1e3-40b4-b977-4179fec8e891 10025 127.0.0.1 10024 
+Nov 30 07:24:55.887 HYPERVISOR: exec_cmd: ethsw add_nio phill udp-10eab16d-e1e3-40b4-b977-4179fec8e891 
+Nov 30 07:24:55.892 HYPERVISOR: exec_cmd: ethsw set_dot1q_port phill udp-10eab16d-e1e3-40b4-b977-4179fec8e891 1 
+Nov 30 07:24:55.937 HYPERVISOR: exec_cmd: nio create_udp udp-7d2063c3-7f8b-4424-b948-11d8d630715d 10028 127.0.0.1 10029 
+Nov 30 07:24:55.937 HYPERVISOR: exec_cmd: ethsw add_nio phill udp-7d2063c3-7f8b-4424-b948-11d8d630715d 
+Nov 30 07:24:55.953 HYPERVISOR: exec_cmd: ethsw set_dot1q_port phill udp-7d2063c3-7f8b-4424-b948-11d8d630715d 1 
+Nov 30 07:25:56.162 HYPERVISOR: exec_cmd: ethsw remove_nio phill udp-7d2063c3-7f8b-4424-b948-11d8d630715d 
+Nov 30 07:25:56.171 HYPERVISOR: exec_cmd: nio delete udp-7d2063c3-7f8b-4424-b948-11d8d630715d 
+Nov 30 07:26:00.393 HYPERVISOR: exec_cmd: ethsw remove_nio phill udp-10eab16d-e1e3-40b4-b977-4179fec8e891 
+Nov 30 07:26:00.407 HYPERVISOR: exec_cmd: nio delete udp-10eab16d-e1e3-40b4-b977-4179fec8e891 
+Nov 30 07:27:17.925 HYPERVISOR: exec_cmd: ethsw delete phill 
+Nov 30 07:27:17.925 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 30 07:27:18.059 HYPERVISOR: Stopped.
+Nov 30 07:27:18.059 GENERAL: reset done.

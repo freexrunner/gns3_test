@@ -1,0 +1,49 @@
+Nov 30 08:05:29.829 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Nov 30 08:05:29.829 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 43497.
+Nov 30 08:05:29.838 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 30 08:05:29.838 HYPERVISOR: exec_cmd: hypervisor working_dir /home/freex/GNS3/projects/gns3_test/project-files/dynamips 
+Nov 30 08:05:29.838 GENERAL: working_dir=/home/freex/GNS3/projects/gns3_test/project-files/dynamips
+Nov 30 08:05:29.838 HYPERVISOR: exec_cmd: hypervisor working_dir /home/freex/GNS3/projects/gns3_test/project-files/dynamips/1e02e957-839d-433b-81fd-e0c180482da2 
+Nov 30 08:05:29.838 GENERAL: working_dir=/home/freex/GNS3/projects/gns3_test/project-files/dynamips/1e02e957-839d-433b-81fd-e0c180482da2
+Nov 30 08:05:29.839 HYPERVISOR: exec_cmd: vm create R1 6 c2691 
+Nov 30 08:05:29.839 VM: VM R1 created.
+Nov 30 08:05:29.839 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5005 
+Nov 30 08:05:29.840 HYPERVISOR: exec_cmd: c2691 get_mac_addr R1 
+Nov 30 08:05:29.840 HYPERVISOR: exec_cmd: vm set_ios R1 /home/freex/CiscoIOS/IOS/c2691-entbasek9-mz.124-13b.image 
+Nov 30 08:05:29.841 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 30 08:05:29.841 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x60691074 
+Nov 30 08:05:29.841 HYPERVISOR: exec_cmd: vm set_ram R1 192 
+Nov 30 08:05:29.842 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Nov 30 08:05:29.842 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Nov 30 08:05:29.928 HYPERVISOR: exec_cmd: vm set_ios R1 /home/freex/CiscoIOS/IOS/c2691-entbasek9-mz.124-13b.image 
+Nov 30 08:07:19.604 HYPERVISOR: exec_cmd: vm set_ios R1 /home/freex/CiscoIOS/IOS/c2691-entbasek9-mz.124-13b.image 
+Nov 30 08:11:02.358 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+Nov 30 08:11:02.359 HYPERVISOR: exec_cmd: vm set_ghost_file R1 /home/freex/GNS3/projects/gns3_test/project-files/dynamips/c2691-entbasek9-mz.124-13b.image-192.ghost 
+Nov 30 08:11:02.360 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 30 08:11:02.360 HYPERVISOR: exec_cmd: vm set_config R1 configs/i6_startup-config.cfg 
+Nov 30 08:11:02.361 HYPERVISOR: exec_cmd: vm start R1 
+Nov 30 08:12:02.360 HYPERVISOR: exec_cmd: nio create_udp udp-84322930-c699-42b5-8c25-deb39b397dcc 10026 127.0.0.1 10027 
+Nov 30 08:12:02.573 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-84322930-c699-42b5-8c25-deb39b397dcc 
+Nov 30 08:12:02.574 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 30 08:12:02.578 HYPERVISOR: exec_cmd: vm extract_config R1 
+Nov 30 08:12:02.590 HYPERVISOR: exec_cmd: vm extract_config R1 
+Nov 30 08:12:02.592 HYPERVISOR: exec_cmd: vm slot_enable_nio R1 0 0 
+Nov 30 08:14:02.594 HYPERVISOR: exec_cmd: vm extract_config R1 
+Nov 30 08:14:02.606 HYPERVISOR: exec_cmd: vm extract_config R1 
+Nov 30 08:28:32.699 HYPERVISOR: exec_cmd: vm extract_config R1 
+Nov 30 08:28:32.713 HYPERVISOR: exec_cmd: vm extract_config R1 
+Nov 30 08:36:13.443 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 30 08:36:13.443 HYPERVISOR: exec_cmd: vm stop R1 
+Nov 30 08:36:13.543 VM: VM R1 shutdown.
+Nov 30 08:36:13.544 HYPERVISOR: exec_cmd: vm extract_config R1 
+Nov 30 09:17:43.756 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+Nov 30 09:17:43.757 HYPERVISOR: exec_cmd: vm set_ghost_file R1 /home/freex/GNS3/projects/gns3_test/project-files/dynamips/c2691-entbasek9-mz.124-13b.image-192.ghost 
+Nov 30 09:17:43.758 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 30 09:17:43.758 HYPERVISOR: exec_cmd: vm set_config R1 configs/i6_startup-config.cfg configs/i6_private-config.cfg 
+Nov 30 09:17:43.759 HYPERVISOR: exec_cmd: vm start R1 
+Nov 30 09:27:14.049 HYPERVISOR: exec_cmd: vm extract_config R1 
+Nov 30 09:27:14.061 HYPERVISOR: exec_cmd: vm extract_config R1 
+Nov 30 10:23:25.730 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 30 10:23:25.731 HYPERVISOR: exec_cmd: vm stop R1 
+Nov 30 10:23:25.832 VM: VM R1 shutdown.
+Nov 30 10:23:25.833 HYPERVISOR: exec_cmd: vm extract_config R1 
