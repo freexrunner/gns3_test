@@ -105,8 +105,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "f0/1",
-                            "x": -4,
-                            "y": 7
+                            "x": -41,
+                            "y": 10
                         },
                         "node_id": "d49c2938-a60a-450a-8335-61e63853129e",
                         "port_number": 1
@@ -592,7 +592,7 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "e3ea5e01-f3b1-462a-9949-1494ab737b21",
                 "width": 66,
-                "x": -225,
+                "x": -219,
                 "y": 87,
                 "z": 1
             },
@@ -929,7 +929,7 @@
                 "template_id": "a3fc67a1-1e9b-453f-96e2-f6e8fa24c943",
                 "width": 66,
                 "x": -580,
-                "y": -252,
+                "y": -250,
                 "z": 1
             },
             {
