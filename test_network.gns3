@@ -381,8 +381,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "f1/0",
-                            "x": 31,
-                            "y": -17
+                            "x": 40,
+                            "y": -25
                         },
                         "node_id": "19525ba4-6f72-4d8a-ba5f-d4da59b05d1e",
                         "port_number": 0
@@ -393,8 +393,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "f0/0",
-                            "x": 34,
-                            "y": 61
+                            "x": 37,
+                            "y": 45
                         },
                         "node_id": "07fbaf9b-52fb-407d-b2b8-4d9cab8ac5a9",
                         "port_number": 0
@@ -1136,8 +1136,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "a3fc67a1-1e9b-453f-96e2-f6e8fa24c943",
                 "width": 66,
-                "x": -686,
-                "y": -472,
+                "x": -679,
+                "y": -471,
                 "z": 1
             },
             {
