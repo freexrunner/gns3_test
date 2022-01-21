@@ -1,0 +1,41 @@
+Jan 20 14:27:20.615 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jan 20 14:27:20.615 HYPERVISOR: Started on IP = localhost, TCP port = 37061.
+Jan 20 14:27:20.625 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 20 14:27:20.625 HYPERVISOR: exec_cmd: hypervisor working_dir /home/freexrunner/GNS3/projects/test_network/project-files/dynamips 
+Jan 20 14:27:20.625 GENERAL: working_dir=/home/freexrunner/GNS3/projects/test_network/project-files/dynamips
+Jan 20 14:27:20.626 HYPERVISOR: exec_cmd: hypervisor working_dir /home/freexrunner/GNS3/projects/test_network/project-files/dynamips/44e87a5b-bc96-4beb-bc2d-1436c5c050ec 
+Jan 20 14:27:20.626 GENERAL: working_dir=/home/freexrunner/GNS3/projects/test_network/project-files/dynamips/44e87a5b-bc96-4beb-bc2d-1436c5c050ec
+Jan 20 14:27:20.626 HYPERVISOR: exec_cmd: vm create T_1 4 c2691 
+Jan 20 14:27:20.626 VM: VM T_1 created.
+Jan 20 14:27:20.627 HYPERVISOR: exec_cmd: vm set_con_tcp_port T_1 5003 
+Jan 20 14:27:20.627 HYPERVISOR: exec_cmd: c2691 get_mac_addr T_1 
+Jan 20 14:27:20.628 HYPERVISOR: exec_cmd: vm set_disk0 T_1 0 
+Jan 20 14:27:20.628 HYPERVISOR: exec_cmd: vm get_status T_1 
+Jan 20 14:27:20.629 HYPERVISOR: exec_cmd: vm set_idle_pc T_1 0x60691074 
+Jan 20 14:27:20.630 HYPERVISOR: exec_cmd: vm set_ios T_1 /home/freexrunner/GNS3/images/IOS/c2691-adventerprisek9-mz.124-15.T14.image 
+Jan 20 14:27:20.630 HYPERVISOR: exec_cmd: c2691 set_mac_addr T_1 c004.567e.0000 
+Jan 20 14:27:20.631 HYPERVISOR: exec_cmd: vm set_nvram T_1 256 
+Jan 20 14:27:20.631 HYPERVISOR: exec_cmd: vm set_ram T_1 192 
+Jan 20 14:27:21.295 HYPERVISOR: exec_cmd: nio create_udp udp-ca87ddac-8eea-4a46-a619-3631ca39ca92 10008 127.0.0.1 10009 
+Jan 20 14:27:21.509 HYPERVISOR: exec_cmd: vm slot_add_nio_binding T_1 0 0 udp-ca87ddac-8eea-4a46-a619-3631ca39ca92 
+Jan 20 14:27:21.510 HYPERVISOR: exec_cmd: vm get_status T_1 
+Jan 20 14:54:26.053 HYPERVISOR: exec_cmd: vm set_ghost_status T_1 2 
+Jan 20 14:54:26.054 HYPERVISOR: exec_cmd: vm set_ghost_file T_1 /home/freexrunner/GNS3/projects/test_network/project-files/dynamips/c2691-adventerprisek9-mz.124-15.T14.image-192.ghost 
+Jan 20 14:54:26.054 HYPERVISOR: exec_cmd: vm get_status T_1 
+Jan 20 14:54:26.055 HYPERVISOR: exec_cmd: vm set_config T_1 configs/i4_startup-config.cfg 
+Jan 20 14:54:26.055 HYPERVISOR: exec_cmd: vm start T_1 
+Jan 20 15:44:56.547 HYPERVISOR: exec_cmd: vm extract_config T_1 
+Jan 20 15:44:56.549 HYPERVISOR: exec_cmd: vm extract_config T_1 
+Jan 20 15:46:43.831 HYPERVISOR: exec_cmd: vm get_status T_1 
+Jan 20 15:46:43.831 HYPERVISOR: exec_cmd: vm stop T_1 
+Jan 20 15:46:43.856 VM: VM T_1 shutdown.
+Jan 20 15:46:43.857 HYPERVISOR: exec_cmd: vm extract_config T_1 
+Jan 20 15:46:50.395 HYPERVISOR: exec_cmd: vm get_status T_1 
+Jan 20 15:46:50.396 HYPERVISOR: exec_cmd: vm extract_config T_1 
+Jan 20 15:46:50.880 HYPERVISOR: exec_cmd: vm get_status T_1 
+Jan 20 15:46:50.881 HYPERVISOR: exec_cmd: vm extract_config T_1 
+Jan 20 15:46:50.882 HYPERVISOR: exec_cmd: vm delete T_1 
+Jan 20 15:46:50.882 VM: VM T_1 destroyed.
+Jan 20 15:46:50.883 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 20 15:46:51.124 HYPERVISOR: Stopped.
+Jan 20 15:46:51.124 GENERAL: reset done.
