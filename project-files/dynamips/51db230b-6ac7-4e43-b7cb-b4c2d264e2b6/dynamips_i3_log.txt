@@ -1,0 +1,58 @@
+Jan 25 06:30:16.025 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jan 25 06:30:16.025 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 42055.
+Jan 25 06:30:16.034 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 25 06:30:16.034 HYPERVISOR: exec_cmd: hypervisor working_dir /home/freex/GNS3/projects/gns3_test/project-files/dynamips 
+Jan 25 06:30:16.034 GENERAL: working_dir=/home/freex/GNS3/projects/gns3_test/project-files/dynamips
+Jan 25 06:30:16.034 HYPERVISOR: exec_cmd: hypervisor working_dir /home/freex/GNS3/projects/gns3_test/project-files/dynamips/658ca54f-0a4c-470e-9488-f2e172835122 
+Jan 25 06:30:16.034 GENERAL: working_dir=/home/freex/GNS3/projects/gns3_test/project-files/dynamips/658ca54f-0a4c-470e-9488-f2e172835122
+Jan 25 06:30:16.035 HYPERVISOR: exec_cmd: vm create ISP_1 1 c7200 
+Jan 25 06:30:16.035 VM: VM ISP_1 created.
+Jan 25 06:30:16.035 HYPERVISOR: exec_cmd: vm set_con_tcp_port ISP_1 5000 
+Jan 25 06:30:16.036 HYPERVISOR: exec_cmd: c7200 get_mac_addr ISP_1 
+Jan 25 06:30:16.036 HYPERVISOR: exec_cmd: vm get_status ISP_1 
+Jan 25 06:30:16.036 HYPERVISOR: exec_cmd: vm slot_add_binding ISP_1 0 0 C7200-IO-FE 
+Jan 25 06:30:16.037 HYPERVISOR: exec_cmd: vm set_disk0 ISP_1 0 
+Jan 25 06:30:16.037 HYPERVISOR: exec_cmd: vm get_status ISP_1 
+Jan 25 06:30:16.037 HYPERVISOR: exec_cmd: vm set_idle_pc ISP_1 0x601b176c 
+Jan 25 06:30:16.038 HYPERVISOR: exec_cmd: vm set_ios ISP_1 /home/freex/CiscoIOS/IOS/c7200-advipservicesk9-mz.124-20.T.image 
+Jan 25 06:30:16.039 HYPERVISOR: exec_cmd: c7200 set_mac_addr ISP_1 ca01.5478.0000 
+Jan 25 06:30:16.039 HYPERVISOR: exec_cmd: vm set_nvram ISP_1 512 
+Jan 25 06:30:16.040 HYPERVISOR: exec_cmd: vm set_ram ISP_1 512 
+Jan 25 06:30:16.040 HYPERVISOR: exec_cmd: vm get_status ISP_1 
+Jan 25 06:30:16.041 HYPERVISOR: exec_cmd: vm slot_add_binding ISP_1 1 0 PA-2FE-TX 
+Jan 25 06:30:16.041 HYPERVISOR: exec_cmd: vm get_status ISP_1 
+Jan 25 06:30:16.041 HYPERVISOR: exec_cmd: vm slot_add_binding ISP_1 2 0 PA-2FE-TX 
+Jan 25 06:30:16.471 HYPERVISOR: exec_cmd: nio create_udp udp-b9ead6ac-4200-4d73-9373-fca15546e6aa 10004 127.0.0.1 10005 
+Jan 25 06:30:16.686 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP_1 1 0 udp-b9ead6ac-4200-4d73-9373-fca15546e6aa 
+Jan 25 06:30:16.686 HYPERVISOR: exec_cmd: vm get_status ISP_1 
+Jan 25 06:30:16.969 HYPERVISOR: exec_cmd: nio create_udp udp-43647922-82c6-4ed2-ae44-6f2a9a0ba03c 10010 127.0.0.1 10011 
+Jan 25 06:30:16.970 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP_1 2 0 udp-43647922-82c6-4ed2-ae44-6f2a9a0ba03c 
+Jan 25 06:30:16.970 HYPERVISOR: exec_cmd: vm get_status ISP_1 
+Jan 25 06:30:17.808 HYPERVISOR: exec_cmd: nio create_udp udp-691b406b-e602-4962-9ba2-84395cfdf315 10026 127.0.0.1 10027 
+Jan 25 06:30:17.810 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP_1 1 1 udp-691b406b-e602-4962-9ba2-84395cfdf315 
+Jan 25 06:30:17.810 HYPERVISOR: exec_cmd: vm get_status ISP_1 
+Jan 25 06:30:48.146 HYPERVISOR: exec_cmd: vm create Ghost 0 c7200 
+Jan 25 06:30:48.146 VM: VM Ghost created.
+Jan 25 06:30:48.147 HYPERVISOR: exec_cmd: vm set_ios Ghost /home/freex/CiscoIOS/IOS/c7200-advipservicesk9-mz.124-20.T.image 
+Jan 25 06:30:48.147 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Jan 25 06:30:48.148 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost /home/freex/GNS3/projects/gns3_test/project-files/dynamips/c7200-advipservicesk9-mz.124-20.T.image-512.ghost 
+Jan 25 06:30:48.148 HYPERVISOR: exec_cmd: vm set_ram Ghost 512 
+Jan 25 06:30:48.148 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jan 25 06:30:48.160 HYPERVISOR: exec_cmd: vm set_config Ghost configs/i0_startup-config.cfg 
+Jan 25 06:30:48.160 HYPERVISOR: exec_cmd: vm start Ghost 
+Jan 25 06:30:48.524 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jan 25 06:30:48.524 HYPERVISOR: exec_cmd: vm stop Ghost 
+Jan 25 06:30:48.583 VM: VM Ghost shutdown.
+Jan 25 06:30:48.584 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Jan 25 06:30:48.585 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Jan 25 06:30:48.585 VM: VM Ghost destroyed.
+Jan 25 06:30:48.587 HYPERVISOR: exec_cmd: vm set_ghost_status ISP_1 2 
+Jan 25 06:30:48.587 HYPERVISOR: exec_cmd: vm set_ghost_file ISP_1 /home/freex/GNS3/projects/gns3_test/project-files/dynamips/c7200-advipservicesk9-mz.124-20.T.image-512.ghost 
+Jan 25 06:30:48.588 HYPERVISOR: exec_cmd: vm get_status ISP_1 
+Jan 25 06:30:48.589 HYPERVISOR: exec_cmd: vm set_config ISP_1 configs/i1_startup-config.cfg 
+Jan 25 06:30:48.589 HYPERVISOR: exec_cmd: vm start ISP_1 
+Jan 25 06:31:18.837 HYPERVISOR: exec_cmd: vm extract_config ISP_1 
+Jan 25 16:22:15.861 HYPERVISOR: exec_cmd: vm get_status ISP_1 
+Jan 25 16:22:15.862 HYPERVISOR: exec_cmd: vm stop ISP_1 
+Jan 25 16:22:15.991 VM: VM ISP_1 shutdown.
+Jan 25 16:22:15.992 HYPERVISOR: exec_cmd: vm extract_config ISP_1 
