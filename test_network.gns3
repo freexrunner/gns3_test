@@ -232,7 +232,7 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "a3fc67a1-1e9b-453f-96e2-f6e8fa24c943",
                 "width": 66,
-                "x": -526,
+                "x": -525,
                 "y": 131,
                 "z": 1
             },
@@ -408,6 +408,6 @@
     },
     "type": "topology",
     "variables": null,
-    "version": "2.2.29",
+    "version": "2.2.31",
     "zoom": 100
 }
