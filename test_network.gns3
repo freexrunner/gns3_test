@@ -41,8 +41,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "f0/0",
-                            "x": 0,
-                            "y": -1
+                            "x": -43,
+                            "y": 2
                         },
                         "node_id": "7bfcd666-83da-46b0-b395-9ef518e983f7",
                         "port_number": 0
@@ -191,12 +191,12 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "R1",
-                    "x": 19,
+                    "text": "bt",
+                    "x": 21,
                     "y": -25
                 },
                 "locked": false,
-                "name": "R1",
+                "name": "bt",
                 "node_id": "60ad5021-8989-4958-a99d-324c4975fe59",
                 "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
@@ -247,12 +247,12 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "R2",
-                    "x": 19,
+                    "text": "fil",
+                    "x": 21,
                     "y": -25
                 },
                 "locked": false,
-                "name": "R2",
+                "name": "fil",
                 "node_id": "b0b4b69a-a2c9-42c8-a523-b89af17fc7bb",
                 "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
@@ -303,12 +303,12 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "R3",
-                    "x": 19,
+                    "text": "dc",
+                    "x": 20,
                     "y": -25
                 },
                 "locked": false,
-                "name": "R3",
+                "name": "dc",
                 "node_id": "85bb7423-e1bb-4378-9bba-9f046722ff47",
                 "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
@@ -359,12 +359,12 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "R4",
-                    "x": 19,
+                    "text": "lm",
+                    "x": 20,
                     "y": -25
                 },
                 "locked": false,
-                "name": "R4",
+                "name": "lm",
                 "node_id": "7bfcd666-83da-46b0-b395-9ef518e983f7",
                 "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
