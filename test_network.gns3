@@ -16,126 +16,11 @@
     "supplier": null,
     "topology": {
         "computes": [],
-        "drawings": [
-            {
-                "drawing_id": "98cbfd9c-c472-4253-8857-d11cc1b60ed1",
-                "locked": false,
-                "rotation": 0,
-                "svg": "<svg width=\"95\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">101.0.0.100</text></svg>",
-                "x": -363,
-                "y": -70,
-                "z": 2
-            },
-            {
-                "drawing_id": "1cada225-dca7-489f-b923-f46207fd1820",
-                "locked": false,
-                "rotation": 0,
-                "svg": "<svg width=\"95\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">102.0.0.100</text></svg>",
-                "x": 47,
-                "y": -67,
-                "z": 2
-            }
-        ],
+        "drawings": [],
         "links": [
             {
                 "filters": {},
-                "link_id": "a6476e2a-7c9e-473e-aab3-0461ea86e12d",
-                "link_style": {},
-                "nodes": [
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f0/0",
-                            "x": -40,
-                            "y": -2
-                        },
-                        "node_id": "cfb7d8f4-6952-43a3-a3ff-67ae8ed40247",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f0/0",
-                            "x": 22,
-                            "y": 51
-                        },
-                        "node_id": "e8f0a8da-be89-4bd8-a8f9-29f05689a970",
-                        "port_number": 0
-                    }
-                ],
-                "suspend": false
-            },
-            {
-                "filters": {},
-                "link_id": "5c46e3fe-2c86-48be-ad80-45cfb052bda2",
-                "link_style": {},
-                "nodes": [
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f0/1",
-                            "x": 62,
-                            "y": -5
-                        },
-                        "node_id": "cfb7d8f4-6952-43a3-a3ff-67ae8ed40247",
-                        "port_number": 1
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f0/1",
-                            "x": 3,
-                            "y": 49
-                        },
-                        "node_id": "32a10892-6b7f-4d0d-9a26-67a6135d71c7",
-                        "port_number": 1
-                    }
-                ],
-                "suspend": false
-            },
-            {
-                "filters": {},
-                "link_id": "cc725a58-772c-4d1a-8e06-6113705c1be3",
-                "link_style": {},
-                "nodes": [
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f0/1",
-                            "x": 78,
-                            "y": -1
-                        },
-                        "node_id": "e8f0a8da-be89-4bd8-a8f9-29f05689a970",
-                        "port_number": 1
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f0/0",
-                            "x": -49,
-                            "y": 0
-                        },
-                        "node_id": "32a10892-6b7f-4d0d-9a26-67a6135d71c7",
-                        "port_number": 0
-                    }
-                ],
-                "suspend": false
-            },
-            {
-                "filters": {},
-                "link_id": "ae743e59-9e62-41e8-9903-658ba7d62e83",
+                "link_id": "dc4e827b-a7c5-49bc-a68a-1233fbf997c0",
                 "link_style": {},
                 "nodes": [
                     {
@@ -144,10 +29,10 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "f1/0",
-                            "x": 22,
-                            "y": -37
+                            "x": -14,
+                            "y": 50
                         },
-                        "node_id": "e8f0a8da-be89-4bd8-a8f9-29f05689a970",
+                        "node_id": "7b91d59a-6f0a-4f4e-bf5d-c69c600fd10c",
                         "port_number": 0
                     },
                     {
@@ -156,10 +41,10 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "f0/0",
-                            "x": -39,
-                            "y": 28
+                            "x": -16,
+                            "y": -26
                         },
-                        "node_id": "df978ef2-b106-4977-9125-b3a9e02e2678",
+                        "node_id": "d9dac194-89c7-4ec3-b427-4501065845fb",
                         "port_number": 0
                     }
                 ],
@@ -167,7 +52,7 @@
             },
             {
                 "filters": {},
-                "link_id": "ddc50542-480a-4cae-98d2-eab9d544a9d2",
+                "link_id": "8a74b7af-6961-455f-9338-00eb1f955dc7",
                 "link_style": {},
                 "nodes": [
                     {
@@ -175,24 +60,280 @@
                         "label": {
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f0/1",
-                            "x": 71,
-                            "y": 31
-                        },
-                        "node_id": "df978ef2-b106-4977-9125-b3a9e02e2678",
-                        "port_number": 1
-                    },
-                    {
-                        "adapter_number": 1,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f1/0",
-                            "x": 12,
+                            "text": "f0/0",
+                            "x": -12,
                             "y": -27
                         },
-                        "node_id": "32a10892-6b7f-4d0d-9a26-67a6135d71c7",
+                        "node_id": "7b91d59a-6f0a-4f4e-bf5d-c69c600fd10c",
                         "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/1",
+                            "x": -13,
+                            "y": 53
+                        },
+                        "node_id": "a26dcbae-aa10-4a7a-bfbe-2705bdf13125",
+                        "port_number": 1
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "63fab8ab-6b12-473f-bea7-a633961c108f",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/1",
+                            "x": 72,
+                            "y": 22
+                        },
+                        "node_id": "7b91d59a-6f0a-4f4e-bf5d-c69c600fd10c",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/0",
+                            "x": -29,
+                            "y": 25
+                        },
+                        "node_id": "db35a40f-bf3e-4f09-a54c-3b2e415049b4",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "58cbbd43-8fd0-495b-966f-3ed7341d7b2e",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/1",
+                            "x": 44,
+                            "y": -25
+                        },
+                        "node_id": "db35a40f-bf3e-4f09-a54c-3b2e415049b4",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/0",
+                            "x": 44,
+                            "y": 47
+                        },
+                        "node_id": "607f641a-d973-4770-b6ee-f4e7c1f20533",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "efd3c685-0a71-46ba-8234-59f29697a6db",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/0",
+                            "x": 72,
+                            "y": 22
+                        },
+                        "node_id": "a26dcbae-aa10-4a7a-bfbe-2705bdf13125",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/1",
+                            "x": -31,
+                            "y": 27
+                        },
+                        "node_id": "607f641a-d973-4770-b6ee-f4e7c1f20533",
+                        "port_number": 1
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "17d7e7ab-e394-41ec-8715-9c74ba1f2d1b",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f1/0",
+                            "x": -11,
+                            "y": -24
+                        },
+                        "node_id": "a26dcbae-aa10-4a7a-bfbe-2705bdf13125",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f1/0",
+                            "x": -13,
+                            "y": 41
+                        },
+                        "node_id": "1b624721-a1f5-40b1-9b77-e76fa11d80d0",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "1513ef49-2a1c-4955-90bf-3a4bd826a337",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f1/0",
+                            "x": 51,
+                            "y": -31
+                        },
+                        "node_id": "607f641a-d973-4770-b6ee-f4e7c1f20533",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f1/0",
+                            "x": 45,
+                            "y": 44
+                        },
+                        "node_id": "d3d1510a-a993-4610-934d-eeba402c08de",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "8d28583d-50fd-4cca-bd4d-e873dee786fc",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/1",
+                            "x": 64,
+                            "y": 25
+                        },
+                        "node_id": "1b624721-a1f5-40b1-9b77-e76fa11d80d0",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/0",
+                            "x": -33,
+                            "y": 25
+                        },
+                        "node_id": "d3d1510a-a993-4610-934d-eeba402c08de",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "b71b4bfb-a815-4e93-ac98-e8cae0987962",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/0",
+                            "x": 10,
+                            "y": -27
+                        },
+                        "node_id": "1b624721-a1f5-40b1-9b77-e76fa11d80d0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/1",
+                            "x": -40,
+                            "y": 36
+                        },
+                        "node_id": "f499ec78-d0ae-491c-8c70-2fd482124418",
+                        "port_number": 1
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "7456c2c4-3612-4150-ad82-3b53e01eebd3",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/0",
+                            "x": 74,
+                            "y": 38
+                        },
+                        "node_id": "f499ec78-d0ae-491c-8c70-2fd482124418",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/1",
+                            "x": 17,
+                            "y": -27
+                        },
+                        "node_id": "d3d1510a-a993-4610-934d-eeba402c08de",
+                        "port_number": 1
                     }
                 ],
                 "suspend": false
@@ -211,12 +352,12 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "R1",
-                    "x": 19,
-                    "y": -25
+                    "x": -41,
+                    "y": 4
                 },
                 "locked": false,
                 "name": "R1",
-                "node_id": "cfb7d8f4-6952-43a3-a3ff-67ae8ed40247",
+                "node_id": "a26dcbae-aa10-4a7a-bfbe-2705bdf13125",
                 "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
                 "port_segment_size": 0,
@@ -234,13 +375,13 @@
                     "image": "c2691-adventerprisek9-mz.124-15.T14.image",
                     "image_md5sum": "002aca99f37a384d32ad28ef1be218e9",
                     "iomem": 5,
-                    "mac_addr": "c001.848d.0000",
+                    "mac_addr": "c001.aa26.0000",
                     "mmap": true,
                     "nvram": 256,
                     "platform": "c2691",
                     "ram": 192,
                     "slot0": "GT96100-FE",
-                    "slot1": null,
+                    "slot1": "NM-1FE-TX",
                     "sparsemem": true,
                     "system_id": "FTX0945W0MY",
                     "usage": "",
@@ -251,8 +392,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "a3fc67a1-1e9b-453f-96e2-f6e8fa24c943",
                 "width": 66,
-                "x": -139,
-                "y": 32,
+                "x": -27,
+                "y": -25,
                 "z": 1
             },
             {
@@ -267,12 +408,12 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "R2",
-                    "x": -28,
-                    "y": -19
+                    "x": 77,
+                    "y": 12
                 },
                 "locked": false,
                 "name": "R2",
-                "node_id": "e8f0a8da-be89-4bd8-a8f9-29f05689a970",
+                "node_id": "607f641a-d973-4770-b6ee-f4e7c1f20533",
                 "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
                 "port_segment_size": 0,
@@ -290,7 +431,7 @@
                     "image": "c2691-adventerprisek9-mz.124-15.T14.image",
                     "image_md5sum": "002aca99f37a384d32ad28ef1be218e9",
                     "iomem": 5,
-                    "mac_addr": "c002.84a7.0000",
+                    "mac_addr": "c002.aa3b.0000",
                     "mmap": true,
                     "nvram": 256,
                     "platform": "c2691",
@@ -307,8 +448,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "a3fc67a1-1e9b-453f-96e2-f6e8fa24c943",
                 "width": 66,
-                "x": -263,
-                "y": -78,
+                "x": 178,
+                "y": -24,
                 "z": 1
             },
             {
@@ -323,12 +464,12 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "R3",
-                    "x": 70,
-                    "y": -13
+                    "x": 79,
+                    "y": -1
                 },
                 "locked": false,
                 "name": "R3",
-                "node_id": "32a10892-6b7f-4d0d-9a26-67a6135d71c7",
+                "node_id": "db35a40f-bf3e-4f09-a54c-3b2e415049b4",
                 "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
                 "port_segment_size": 0,
@@ -346,7 +487,7 @@
                     "image": "c2691-adventerprisek9-mz.124-15.T14.image",
                     "image_md5sum": "002aca99f37a384d32ad28ef1be218e9",
                     "iomem": 5,
-                    "mac_addr": "c003.84bd.0000",
+                    "mac_addr": "c003.aa50.0000",
                     "mmap": true,
                     "nvram": 256,
                     "platform": "c2691",
@@ -363,8 +504,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "a3fc67a1-1e9b-453f-96e2-f6e8fa24c943",
                 "width": 66,
-                "x": -22,
-                "y": -76,
+                "x": 178,
+                "y": 116,
                 "z": 1
             },
             {
@@ -379,12 +520,12 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "R4",
-                    "x": 19,
-                    "y": -25
+                    "x": -34,
+                    "y": 4
                 },
                 "locked": false,
                 "name": "R4",
-                "node_id": "df978ef2-b106-4977-9125-b3a9e02e2678",
+                "node_id": "7b91d59a-6f0a-4f4e-bf5d-c69c600fd10c",
                 "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
                 "port_segment_size": 0,
@@ -402,7 +543,175 @@
                     "image": "c2691-adventerprisek9-mz.124-15.T14.image",
                     "image_md5sum": "002aca99f37a384d32ad28ef1be218e9",
                     "iomem": 5,
-                    "mac_addr": "c004.84e1.0000",
+                    "mac_addr": "c004.aa72.0000",
+                    "mmap": true,
+                    "nvram": 256,
+                    "platform": "c2691",
+                    "ram": 192,
+                    "slot0": "GT96100-FE",
+                    "slot1": "NM-1FE-TX",
+                    "sparsemem": true,
+                    "system_id": "FTX0945W0MY",
+                    "usage": "",
+                    "wic0": null,
+                    "wic1": null,
+                    "wic2": null
+                },
+                "symbol": ":/symbols/router.svg",
+                "template_id": "a3fc67a1-1e9b-453f-96e2-f6e8fa24c943",
+                "width": 66,
+                "x": -28,
+                "y": 115,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5004,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "R5",
+                    "x": -39,
+                    "y": 2
+                },
+                "locked": false,
+                "name": "R5",
+                "node_id": "1b624721-a1f5-40b1-9b77-e76fa11d80d0",
+                "node_type": "dynamips",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "auto_delete_disks": true,
+                    "aux": null,
+                    "clock_divisor": 8,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "dynamips_id": 5,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "0x60691074",
+                    "idlesleep": 30,
+                    "image": "c2691-adventerprisek9-mz.124-15.T14.image",
+                    "image_md5sum": "002aca99f37a384d32ad28ef1be218e9",
+                    "iomem": 5,
+                    "mac_addr": "c005.aa9a.0000",
+                    "mmap": true,
+                    "nvram": 256,
+                    "platform": "c2691",
+                    "ram": 192,
+                    "slot0": "GT96100-FE",
+                    "slot1": "NM-1FE-TX",
+                    "sparsemem": true,
+                    "system_id": "FTX0945W0MY",
+                    "usage": "",
+                    "wic0": null,
+                    "wic1": null,
+                    "wic2": null
+                },
+                "symbol": ":/symbols/router.svg",
+                "template_id": "a3fc67a1-1e9b-453f-96e2-f6e8fa24c943",
+                "width": 66,
+                "x": -27,
+                "y": -157,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5005,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "R6",
+                    "x": 76,
+                    "y": 8
+                },
+                "locked": false,
+                "name": "R6",
+                "node_id": "d3d1510a-a993-4610-934d-eeba402c08de",
+                "node_type": "dynamips",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "auto_delete_disks": true,
+                    "aux": null,
+                    "clock_divisor": 8,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "dynamips_id": 6,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "0x60691074",
+                    "idlesleep": 30,
+                    "image": "c2691-adventerprisek9-mz.124-15.T14.image",
+                    "image_md5sum": "002aca99f37a384d32ad28ef1be218e9",
+                    "iomem": 5,
+                    "mac_addr": "c006.aab2.0000",
+                    "mmap": true,
+                    "nvram": 256,
+                    "platform": "c2691",
+                    "ram": 192,
+                    "slot0": "GT96100-FE",
+                    "slot1": "NM-1FE-TX",
+                    "sparsemem": true,
+                    "system_id": "FTX0945W0MY",
+                    "usage": "",
+                    "wic0": null,
+                    "wic1": null,
+                    "wic2": null
+                },
+                "symbol": ":/symbols/router.svg",
+                "template_id": "a3fc67a1-1e9b-453f-96e2-f6e8fa24c943",
+                "width": 66,
+                "x": 176,
+                "y": -156,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5006,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "R7",
+                    "x": -35,
+                    "y": 5
+                },
+                "locked": false,
+                "name": "R7",
+                "node_id": "d9dac194-89c7-4ec3-b427-4501065845fb",
+                "node_type": "dynamips",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "auto_delete_disks": true,
+                    "aux": null,
+                    "clock_divisor": 8,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "dynamips_id": 7,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "0x60691074",
+                    "idlesleep": 30,
+                    "image": "c2691-adventerprisek9-mz.124-15.T14.image",
+                    "image_md5sum": "002aca99f37a384d32ad28ef1be218e9",
+                    "iomem": 5,
+                    "mac_addr": "c007.aac7.0000",
                     "mmap": true,
                     "nvram": 256,
                     "platform": "c2691",
@@ -419,8 +728,64 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "a3fc67a1-1e9b-453f-96e2-f6e8fa24c943",
                 "width": 66,
-                "x": -142,
-                "y": -183,
+                "x": -29,
+                "y": 279,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5007,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "R8",
+                    "x": 19,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "R8",
+                "node_id": "f499ec78-d0ae-491c-8c70-2fd482124418",
+                "node_type": "dynamips",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "auto_delete_disks": true,
+                    "aux": null,
+                    "clock_divisor": 8,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "dynamips_id": 8,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "0x60691074",
+                    "idlesleep": 30,
+                    "image": "c2691-adventerprisek9-mz.124-15.T14.image",
+                    "image_md5sum": "002aca99f37a384d32ad28ef1be218e9",
+                    "iomem": 5,
+                    "mac_addr": "c008.aadb.0000",
+                    "mmap": true,
+                    "nvram": 256,
+                    "platform": "c2691",
+                    "ram": 192,
+                    "slot0": "GT96100-FE",
+                    "slot1": null,
+                    "sparsemem": true,
+                    "system_id": "FTX0945W0MY",
+                    "usage": "",
+                    "wic0": null,
+                    "wic1": null,
+                    "wic2": null
+                },
+                "symbol": ":/symbols/router.svg",
+                "template_id": "a3fc67a1-1e9b-453f-96e2-f6e8fa24c943",
+                "width": 66,
+                "x": 67,
+                "y": -276,
                 "z": 1
             }
         ]
